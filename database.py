@@ -13,7 +13,7 @@ def jbk_banner():
     print(f"{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     print(f"{C}      JBK DARKWORKS - ADVANCED TOOLKIT       ")
     print(f"{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print(f"{W}   [+] OWNER  : {G}SHAHZADA FAHAD")
+    print(f"{W}   [+] OWNER  : {G}ALI RAZA OFFICIAL")
     print(f"{W}   [+] TEAM   : {R}JBK DARKWORKS")
     print(f"{W}   [+] STATUS : {Y}DATABASE ACCESS ACTIVE")
     print(f"{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{RESET}")
@@ -29,7 +29,7 @@ def fetch_data(num):
     jbk_banner()
     print(f"\n{W}[{G}*{W}] {C}BYPASSING DATABASE SECURITY...{RESET}")
     
-    url = f"https://howler-database-api.vercel.app/api/lookup?phone={num}"
+    url = f"https://sim-api.fakcloud.tech/api/lookup?phone={num}"
     
     try:
         res = requests.get(url, timeout=15).json()
